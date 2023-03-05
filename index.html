@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestSite</title>
+</head>
+
+<body>
+    <hr size = "3" noshade/>
+    <h1 align=center>HTML Tags</h1>
+    <hr size = 3 noshade>
+    <h3>DevDocs.io</h3>
+    <!-- h# elements with each bigger number produces smaller font -->
+    <br>
+    <h4><"element": "attribute"="value">... ...<"/element"></h4>
+    <h5>Some tags have need no closing like "br"</h5>
+    <br>
+    <hr size = "3" noshade/>
+    <h1 align=center>HTML Page Layout</h1>
+    <hr size = 3 noshade>
+        <BR>
+        <h3>Boiler Plate (default template)-</h3>
+        <pre class=" language-html"><code class=" language-html"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ie=edge<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>HTML 5 Boilerplate<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>style.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>index.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre>
+    <a href="https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/">Explaination of each tags</a>
+    <br>
+    <h2>Elements within the body tag</2> 
+    <h4>List</4>
+    <h5>
+        <UL>
+        <li><"ul"> unordered list - item starts with bullet point</li>
+        <li><"ol"> ordered list - item starts with ordered character, use attribute to specify type of char i.e letters or numbers</li>
+        </UL>
+        Inside the list tag are <"li"> or list item tag that denotes each entries on the list.
+    </h5>  
+    
+    <h4>Images</h4>
+    <h5><p>To display a image, use <"img"> with attribute src= either path to image file inside directory of the website (root is where the index.html is), or an url of a picture online.</p><p>Use alt= attribute to denote with text what this picture is about in case it cannot be displayed. <em><b>The Google search engine also uses this text information to determine your website's contents for search results!</b></em></p></h5>
+    
+    <h4>Tables</h4>
+    <h5>
+        <p>Use tag <"table"> then <"tbody">, inside use <"tr"> to create rows of the table, then <"td"> to add entries/cells in each row. Use <"thead"> to define the row as the header row, <"th"> to define one cell as a header cell.</p>
+
+    <p>An example of nested table, larger table which its td contains another table:</p>    
+    <p>To type emojis use windows key + . or ;</p>
+  </h5>
+  <h4>
+    <table border=1 cellspacing=5>
+      <thead bgcolor=aaaaaa>
+        <tr>
+          <th>Food</th>
+          <th>Price</th>
+        </tr>  
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>Mcdonnal's</td>
+                <td>👍👍</td>
+              </tr>
+              <tr>
+                <td>Wendy's</td>
+                <td>👍</td>
+              </tr>
+              <tr>
+                <td>KFC</td>
+                <td>👍👍👍</td>
+              </tr>              
+            </table> 
+          </td>
+          <td>
+            <table>
+              <tr><td>👍👍</td></tr>
+              <tr><td>👍👍👍</td></tr>
+              <tr><td>👍</td></tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </h4>
+  <br>
+  <h4>Form</h4>
+  <h5><p>Note that the attribute of <"form">, "action"= to index.html, so when submit is pressed, the form redirects the browser to the index page. It can be set =mailto so that when submit is pressed, the system default email app will run and the email address entered will be fetched into the email app ready to compose a email. The "method= post" state that all field inputs will be transfered into email client.</p>
+<p>The attribute enctype="text/plain" specifies that the text from all the fields are encoded in utf-8 text so that the transfered text will not contain jubberish characters like %.</p>
+<p>The name= attributes of the inputs are the names of the variable that stores the inputed values.</p>
+    <form class="" action="index.html" method="post" enctype="text/plain">
+      <lable>Your Name:</lable>
+      <input type="text" name="Name" value=""></input><br>
+      <lable>Your Email:</lable>
+      <input type="email" name="Email" value=""></input><br>
+      <lable>Your Message:</lable><br>
+      <textarea name="Message" rows="10" cols="30"></textarea><br>
+      <input type="range" name=""></input>
+      <input type="color" name="" value=""></input><br>
+      <input type="checkbox" name="" value="">Add to email list.</input><br>
+      <input type="submit" name=""></input>
+    </form>
+  </h5>
+</body>
+</html>
